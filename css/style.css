@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.login-container, .register-container {
+    background: url('../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-area {
+    width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group .form-control {
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .box-area {
+        margin: 0 10px;
+    }
+}
+
+#dashboard-body {
+    #body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    main {
+        flex: 1;
+    }
+    .navbar-nav {
+        margin-left: auto;
+    }
+    .header-text{
+        font-size: 3.5rem;
+    }
+    .user-name {
+        font-size: 2rem;
+    }
+    .user-email {
+        font-size: 1.5rem;
+    }
+    .welcome-gif {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+    }
+    footer {
+        margin-top: auto;
+    }
+}
